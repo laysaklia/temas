@@ -1,6 +1,6 @@
 /**
 Theme Name: Asyone
-Theme URI: https://github.com/laysaklia/nysck/tree/Hiraeth
+Theme URI: https://github.com/laysaklia/temas/tree/golden-theme/goldenio
 Author: Laysa Klia
 Author URI: https://github.com/laysaklia
 Description: Tema modelo para Wordpress
@@ -10,3 +10,121 @@ Text Domain: Internet
 Domain Path: /languages/
 Tags: Básico, simples.
 */
+
+
+/* Estilização geral */
+
+@import url('fonts/Montserrat.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilização do cabeçalho */
+  .site-header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .site-title a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .site-description {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Estilização do menu principal */
+  .main-navigation {
+    margin-top: 20px;
+  }
+  
+  .main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-navigation ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .main-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilização do conteúdo */
+  .site-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #primary {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  #secondary {
+    flex: 1;
+  }
+  
+  .entry-title a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .entry-content {
+    margin-top: 10px;
+  }
+  
+  /* Estilização da barra lateral */
+  .widget {
+    margin-bottom: 20px;
+  }
+  
+  .widget-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  /* Estilização do rodapé */
+  .site-footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .site-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .site-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
